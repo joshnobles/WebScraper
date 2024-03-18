@@ -1,0 +1,16 @@
+﻿INFO : [DbContext.GetUser] Executing Query: SELECT * FROM [dbo].[User] WHERE Username = @Username and Password = @Password with @Username: Admin, @Password: Admin1!
+INFO : [DbContext.GetUser] Executing Query: SELECT * FROM [dbo].[User] WHERE Username = @Username and Password = @Password with @Username: admin, @Password: Admin1!
+INFO : [DbContext.GetUser] Executing Query: SELECT * FROM [dbo].[User] WHERE Username = @Username and Password = @Password with @Username: admin, @Password: Admin1!
+INFO : [DbContext.GetUser] Executing Query: SELECT * FROM [dbo].[User] WHERE Username = @Username and Password = @Password with @Username: admin, @Password: Admin1!
+INFO : [DbContext.GetUser] Executing Query: SELECT * FROM [dbo].[User] WHERE Username = @Username and Password = @Password with @Username: admin, @Password: Admin1!
+INFO : [DbContext.GetUser] Executing Query: SELECT * FROM [dbo].[User] WHERE Username = @Username and Password = @Password with @Username: admin, @Password: Admin1!
+INFO : [DbContext.GetUser] Executing Query: SELECT * FROM [dbo].[User] WHERE Username = @Username and Password = @Password with @Username: admin, @Password: Admin1!
+INFO : [DbContext.GetUser] Executing Query: SELECT * FROM [dbo].[User] WHERE Username = @Username and Password = @Password with @Username: admin, @Password: Admin1!
+INFO : [DbContext.UserExists] Executing Query: SELECT * FROM [dbo].[User] WHERE Username = @Username with @Username: test
+INFO : [DbContext.AddUser] Executing Query: INSERT INTO [dbo].[User] (Username, Password, Name) OUTPUT INSERTED.IdUser VALUES (@Username, @Password, @Name) with @Username: test, @Password: Test1!, @Name: test
+INFO : [DbContext.GetUser] Executing Query: SELECT * FROM [dbo].[User] WHERE IdUser = @IdUser with @IdUser: 1017
+INFO : [DbContext.GetUser] Executing Query: SELECT * FROM [dbo].[User] WHERE Username = @Username and Password = @Password with @Username: test, @Password: Test1!
+INFO : [DbContext.UserExists] Executing Query: SELECT * FROM [dbo].[User] WHERE Username = @Username with @Username: admin
+INFO : [DbContext.AddUser] Executing Query: INSERT INTO [dbo].[User] (Username, Password, Name) OUTPUT INSERTED.IdUser VALUES (@Username, @Password, @Name) with @Username: admin, @Password: Admin1!, @Name: Admin
+INFO : [DbContext.GetUser] Executing Query: SELECT * FROM [dbo].[User] WHERE IdUser = @IdUser with @IdUser: 4
+ERROR : [Http.Get] Bad Response Status Code: NotFound

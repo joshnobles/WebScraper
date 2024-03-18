@@ -1,0 +1,22 @@
+﻿<Window x:Class="WebScraper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WebScraper"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="auto" Width="auto"
+        SizeToContent="WidthAndHeight">
+    <Grid Margin="0,0,0,0">
+        <Label Content="Web Scraper" Margin="350,12,316,401"/>
+        <Label Content="Login" Margin="350,64,378,351"/>
+        <Label Content="Username:" Margin="277,121,445,290"/>
+        <Label Content="Password:" Margin="277,165,445,250"/>
+        <TextBox x:Name="Username" TextWrapping="Wrap" Text="" Width="120" Margin="350,126,320,290"/>
+        <PasswordBox x:Name="Password" Margin="350,165,320,250"/>
+        <Button Content="Login" Click="Login" Margin="277,206,433,207"/>
+        <Button Content="Create New Account" Click="CreateAccount" Margin="395,206,281,207"/>
+        <Label x:Name="Invalid" Content="" Margin="277,89,320,320"/>
+
+    </Grid>
+</Window>
